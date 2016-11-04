@@ -227,6 +227,11 @@ header {
   width: 100%; }
 
 /* End Brand logo  */
+
+.header-logo{
+    display: block;
+    padding: 10px;
+}
 .menu-link::before {
   background: #3F3F3F none repeat scroll 0 0;
   bottom: 0;
@@ -240,7 +245,7 @@ header {
   width: 100%; }
 
 .navbar-nav > li {
-  padding: 10px 15px 0px; }
+  padding: 15px 15px 0px; }
 
 .menu-link {
   backface-visibility: hidden;
@@ -487,7 +492,12 @@ ol.carousel-indicators li {
       text-transform: uppercase;
       font-family: "PT Sans", sans-serif;
       padding: 6px 20px !important;
-      height: 50px; }
+      height: 50px;
+        margin-bottom: 20px;}
+    .newsletter .input-group textarea.form-control{
+        height:auto;
+    }
+
       .newsletter .input-group .form-control::-webkit-input-placeholder {
         color: #3F3F3F;
         font-size: 13px;
@@ -519,11 +529,12 @@ ol.carousel-indicators li {
         text-transform: uppercase;
         font-family: "PT Sans", sans-serif; }
     .newsletter .input-group .input-group-btn {
-      position: absolute;
-      right: 5px;
-      top: 6px;
-      height: 45px !important;
-      width: 45px !important; }
+      /*position: absolute;*/
+      /*right: 5px;*/
+      /*top: 6px;*/
+      /*height: 45px !important;*/
+      /*width: 45px !important; */
+    }
       .newsletter .input-group .input-group-btn button {
         border-radius: 100%;
         font-size: 13px;
@@ -540,6 +551,9 @@ footer {
   margin-bottom: 15px; }
   footer .container-fluid {
     padding: 0px; }
+    .footer-logo{
+        float: right;
+    }
     footer .container-fluid .brand {
       text-transform: capitalize;
       color: #FFFFFF;
@@ -613,7 +627,7 @@ footer {
 @media (min-width: 960px) {
   /* Styles */
   .navbar-default {
-    padding: 0px 7% 5px !important;
+    padding: 0px 7% 0px !important;
     /* 195px; */ }
   h1 {
     font-size: 50px !important; }
