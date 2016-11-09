@@ -230,7 +230,12 @@ header {
 
 .header-logo{
     display: block;
-    padding: 10px;
+  height: 60px;
+    padding-left: 75px;
+  background: url(../img/logo60.png) no-repeat left;
+  font-size: 40px;
+  line-height:60px;
+
 }
 .menu-link::before {
   background: #3F3F3F none repeat scroll 0 0;
@@ -552,7 +557,7 @@ footer {
   footer .container-fluid {
     padding: 0px; }
     .footer-logo{
-        float: right;
+        /*float: right;*/
     }
     footer .container-fluid .brand {
       text-transform: capitalize;
@@ -627,7 +632,7 @@ footer {
 @media (min-width: 960px) {
   /* Styles */
   .navbar-default {
-    padding: 0px 7% 0px !important;
+    padding: 10px 7%  !important;
     /* 195px; */ }
   h1 {
     font-size: 50px !important; }
