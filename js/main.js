@@ -2,7 +2,7 @@
     new WOW().init();
 
 
-    $('.menu-link').click(function() {
+    $('.menu-link , .footer-menu-link').click(function() {
         var scrollSpeed = 1000; // Default scrolling speed
         console.log(this.hash);
         if (this.hash == '#features-section') {
